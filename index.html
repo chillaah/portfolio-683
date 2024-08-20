@@ -1,0 +1,162 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chiran Walisundara</title>
+    <style>
+      body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      gap: 30px;
+      padding: 0 30px;
+      justify-content: center;
+      margin: 0;
+      background-color: #000000;
+    }
+    header {
+      position: sticky;
+      max-height: 600px;
+      top: 0;
+      background-color: #1d1d1e;
+      color: #ffffff;
+      border-radius: 20px;
+      padding: 25px;
+      text-align: left;
+      margin-top: 68px;
+      width: 30%;
+    }
+    section {
+      color: #fff;
+      width: 70%;
+    }
+
+    .project_list {
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .project_header {
+      display: flex;
+    }
+    .project_detail {
+      margin-left: 5%;
+      display: flex;
+      flex-direction: column;
+    }
+    .project-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    
+    .project-image.image-error {
+      background-color: #fff;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    .project_card {
+      min-width: 800px;
+      background-color: #1d1d1e;
+      color: #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: left;
+      margin-bottom: 20px; /* Adds space between cards */
+    }
+    .project_links {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      display: inline-block;
+      background-color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .project_links a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+      font-weight: medium;
+      text-align: center;
+      border: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    </style>
+  </head>
+  <body style="background-color: #000000;">
+  <header style="border: 1px solid #FDC663;">
+    <img src="https://avatars.githubusercontent.com/u/72689083?v=4" alt="Chiran Walisundara"  style="width:150px; height:150px; border-radius: 50%;">
+    <h1>chillaah</h1>
+    <p>Computer & Software Systems @ QUT 👨🏽‍💻</p>
+    <a href="chillaah.github.io" target="_blank">Blog</a>
+  </header>
+  <section>
+    <h1 clss="project_title">Projects</h1>
+    <div class="project_list">
+      
+        <div class="project_card" style="border: 1px solid #FDC663;">
+          <div class="project_header">
+          <img class="profile-image" src="https://picsum.photos/200" alt="Chiran Walisundara" style="width: 100px; height:100px; border-radius: 12px;" onerror="this.onerror=null; this.src='default-avatar.png';">
+            <div class="project_detail">
+            <h3 class="project_name">astar-visual</h3>
+            <p class="project_description">This project is a C++ implementation of the A* pathfinding algorithm, visualized using the SFML library. It aims to demonstrate the algorithm's process of finding the shortest path between a starting and goal cell on a 20x20 grid, while avoiding obstacles, through an interactive step-by-step visualization. 
+</p>
+            </div>
+          </div>
+          <button class="project_links">
+            <a href="https://github.com/chillaah/astar-visual" target="_blank">View Project</a>
+          </button>
+        </div>
+      
+        <div class="project_card" style="border: 1px solid #FDC663;">
+          <div class="project_header">
+          <img class="profile-image" src="https://picsum.photos/200" alt="Chiran Walisundara" style="width: 100px; height:100px; border-radius: 12px;" onerror="this.onerror=null; this.src='default-avatar.png';">
+            <div class="project_detail">
+            <h3 class="project_name">path-pilot-pc</h3>
+            <p class="project_description">This is a productivity app</p>
+            </div>
+          </div>
+          <button class="project_links">
+            <a href="https://github.com/chillaah/path-pilot-pc" target="_blank">View Project</a>
+          </button>
+        </div>
+      
+        <div class="project_card" style="border: 1px solid #FDC663;">
+          <div class="project_header">
+          <img class="profile-image" src="https://picsum.photos/200" alt="Chiran Walisundara" style="width: 100px; height:100px; border-radius: 12px;" onerror="this.onerror=null; this.src='default-avatar.png';">
+            <div class="project_detail">
+            <h3 class="project_name">pioneer-mobile-robot-slam</h3>
+            <p class="project_description">This project aims to implement Simultaneous Localization and Mapping (SLAM) on a Pioneer 3-DX mobile robot. The project comprises four modules: robot motion and control, planning, Bayesian filtering and localization, and EKF SLAM implementation using real data. 
+</p>
+            </div>
+          </div>
+          <button class="project_links">
+            <a href="https://github.com/chillaah/pioneer-mobile-robot-slam" target="_blank">View Project</a>
+          </button>
+        </div>
+      
+
+</section>
+<script src="script.js"></script>
+  </body>
+  </html>
+  
+
+  
